@@ -19,4 +19,11 @@
     <string name="login">Login</string>
     <string name="dont_have_account_register_now">Dont have account? Register now</string>
     <string name="login_now">Login now</string>
+    <string name="place_prompt">Choose a place</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="mumbai">Mumbai</string>
+    <string-array name="places">
+        <item>Hyderabad</item>
+        <item>Mumbai</item>
+    </string-array>
 </resources>
