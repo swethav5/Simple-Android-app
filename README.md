@@ -1,2 +1,2 @@
-# Simple-Android-app
-It is a Simple Android app.
+# Tourist-Guide-app
+It is a Tourist guide Android app.
