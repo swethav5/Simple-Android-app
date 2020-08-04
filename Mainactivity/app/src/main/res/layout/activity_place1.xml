@@ -6,15 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".place1">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hyderabad"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="405dp"
+        android:layout_height="264dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/hyderabad"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.212" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hyderabad" />
+
+    <TextView
+        android:id="@+id/hydtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/hyderabad"
+        android:textColor="#591C09"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/infotextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/worlds_favourite_biryani"
+        android:textColor="#06010E"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hydtextview"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/abouthydtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:text="@string/hyderabad_is_the_capital_and_largest_city_of_the_south_indian_state_of_telangana_there_are_many_tourism_places_to_visit_in_hyderabad_from_families_young_group_of_friends_children_to_senior_citizens_everyone_will_find_something_of_their_interest_in_hyderabad_few_visiting_places_in_hyderabad_are_golconda_fort_charminar_hussain_sagar_birla_mandir_etc_the_city_of_hyderabad_depicts_an_interesting_confluence_of_the_traditional_and_the_modern_the_past_and_the_present_this_city_is_a_place_worth_visiting_at_least_once_in_a_lifetime"
+        android:textAlignment="gravity"
+        android:textColor="#0B0A0E"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infotextview" />
 </androidx.constraintlayout.widget.ConstraintLayout>

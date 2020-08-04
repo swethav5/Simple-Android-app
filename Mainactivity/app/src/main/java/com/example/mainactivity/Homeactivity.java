@@ -31,11 +31,12 @@ public class Homeactivity extends AppCompatActivity {
         sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                String place=adapterView.getItemAtPosition(i).toString();
-                if(place=="Hyderabad"){
+                //String place=adapterView.getItemAtPosition(i).toString();
+                if(adapterView.getItemAtPosition(i).equals("Choose a Place")){}
+                else if(adapterView.getItemAtPosition(i).equals("Hyderabad")){
                     startActivity(new Intent(Homeactivity.this,place1.class));
                 }
-                else if(place=="Mumbai"){
+                else if(adapterView.getItemAtPosition(i).equals("Mumbai")){
                     startActivity(new Intent(Homeactivity.this,place2.class));
                 }
             }

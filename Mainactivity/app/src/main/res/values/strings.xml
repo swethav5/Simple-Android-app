@@ -22,7 +22,13 @@
     <string name="place_prompt">Choose a place</string>
     <string name="hyderabad">Hyderabad</string>
     <string name="mumbai">Mumbai</string>
+    <string name="choose_a_place">Choose a place</string>
+    <string name="worlds_favourite_biryani">Worlds favourite Biryani</string>
+    <string name="hyderabad_is_the_capital_and_largest_city_of_the_south_indian_state_of_telangana_there_are_many_tourism_places_to_visit_in_hyderabad_from_families_young_group_of_friends_children_to_senior_citizens_everyone_will_find_something_of_their_interest_in_hyderabad_few_visiting_places_in_hyderabad_are_golconda_fort_charminar_hussain_sagar_birla_mandir_etc_the_city_of_hyderabad_depicts_an_interesting_confluence_of_the_traditional_and_the_modern_the_past_and_the_present_this_city_is_a_place_worth_visiting_at_least_once_in_a_lifetime">Hyderabad is the capital and largest city of the South Indian state of Telangana. There are many tourism places to visit in Hyderabad, from families, young group of friends, children to senior citizens, everyone will find something of their interest in Hyderabad. Few visiting places in hyderabad are Golconda Fort, Charminar, Hussain sagar, Birla Mandir etc.This city is a place worth visiting at least once in a lifetime.</string>
+    <string name="a_financial_center_of_india">A financial center of India</string>
+    <string name="the_city_has_a_long_list_of_places_to_visit_in_mumbai_where_families_can_have_fun_and_create_indelible_memories_here_re_some_of_the_best_places_to_visit_in_mumbai_with_family_gateway_of_india_red_carpet_wax_museum_elephanta_caves_etc_these_places_will_make_you_fall_in_love_with_this_extravagant_city_over_and_over_again">The city has a long list of places to visit in Mumbai where families can have fun and create indelible memories. Here’re some of the best places to visit in Mumbai with family Gateway of India, Red Carpet Wax Museum, Elephanta Caves etc. These places will make you fall in love with this extravagant city over and over again.</string>
     <string-array name="places">
+        <item>Choose a Place</item>
         <item>Hyderabad</item>
         <item>Mumbai</item>
     </string-array>

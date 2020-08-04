@@ -7,13 +7,58 @@
     tools:context=".place2">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/mumbaitextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
         android:text="@string/mumbai"
+        android:textColor="#9A0C0C"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="416dp"
+        android:layout_height="277dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@drawable/mumbai"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/mumbai" />
+
+    <TextView
+        android:id="@+id/muminfotextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/a_financial_center_of_india"
+        android:textColor="#090513"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mumbaitextview" />
+
+    <TextView
+        android:id="@+id/mumabouttextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/the_city_has_a_long_list_of_places_to_visit_in_mumbai_where_families_can_have_fun_and_create_indelible_memories_here_re_some_of_the_best_places_to_visit_in_mumbai_with_family_gateway_of_india_red_carpet_wax_museum_elephanta_caves_etc_these_places_will_make_you_fall_in_love_with_this_extravagant_city_over_and_over_again"
+        android:textColor="#0F0819"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/muminfotextview" />
 </androidx.constraintlayout.widget.ConstraintLayout>
