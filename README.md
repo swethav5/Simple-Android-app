@@ -1,2 +1,2 @@
-# Tourist-Guide-app
-It is a Tourist guide Android app.
+# Travel-Guide-app
+It is a Travel guide Android app.
