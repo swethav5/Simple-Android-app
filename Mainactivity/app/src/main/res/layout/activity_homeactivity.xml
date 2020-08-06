@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="@string/choose_a_place"
         android:textColor="#CF1515"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
